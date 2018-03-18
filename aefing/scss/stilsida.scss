@@ -1,0 +1,38 @@
+@import "import.scss";
+
+h1{
+	color: lighten($litagildi3, 20%);
+}
+
+p.p1{
+	border: $multi;
+}
+
+p.p2{
+	color: darken($litagildi4, 30%);
+}
+
+p.innkaup{
+	color: invert($litagildi4);
+}
+
+a{
+	text-decoration: none;
+	color: $litagildi5;
+	&:hover{
+	color: $litagildi4;
+	}
+}
+
+@mixin mixin{
+	color: $litagildi2;
+	font-family: $font;
+}
+
+li{
+	@include mixin;
+}
+
+footer{
+	border: $breyta;
+}

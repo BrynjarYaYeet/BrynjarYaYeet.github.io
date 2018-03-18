@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,EAAE;EACD,KAAK,EAAE,OAAyB;;AAGjC,IAAI;EACH,MAAM,ECCC,aAAa;;ADErB,IAAI;EACH,KAAK,EAAE,OAAwB;;AAGhC,SAAS;EACR,KAAK,EAAE,OAAmB;;AAG3B,CAAC;EACA,eAAe,EAAE,IAAI;EACrB,KAAK,EChBO,OAAO;EDiBnB,OAAO;IACP,KAAK,ECnBO,OAAO;;AD4BpB,EAAE;EAJD,KAAK,EC1BO,GAAG;ED2Bf,WAAW,ECnBL,kBAAkB;;AD0BzB,MAAM;EACL,MAAM,EC1BE,kBAA+B",
+"sources": ["../scss/stilsida.scss","../scss/import.scss"],
+"names": [],
+"file": "stilsida.css"
+}

@@ -1,0 +1,26 @@
+h1 {
+  color: #dd007e; }
+
+p.p1 {
+  border: 2px solid red; }
+
+p.p2 {
+  color: #5a9500; }
+
+p.innkaup {
+  color: #5200d0; }
+
+a {
+  text-decoration: none;
+  color: #800080; }
+  a:hover {
+    color: #ADFF2F; }
+
+li {
+  color: red;
+  font-family: Courier, monospace; }
+
+footer {
+  border: #ADFF2F 1px dashed; }
+
+/*# sourceMappingURL=stilsida.css.map */
