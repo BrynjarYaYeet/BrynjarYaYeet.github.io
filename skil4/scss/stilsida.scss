@@ -1,0 +1,280 @@
+$litur1: white;
+$litur2: #67FFD2;
+$litur3: #333;
+$litur4: #4BFF12;
+$litur5: #FFF100;
+$litur6: #FF93E8;
+$litur7: #FF0000;
+
+$tala1: 100%;
+
+$border: 2px solid $litur4;
+
+@mixin mixin1{
+	display: flex;
+	flex-direction: column;
+}
+
+@import "normalize.scss";
+
+
+
+/*mobile up*/
+@media all and (max-width: 37.5em) {
+
+body{
+	@include mixin1;
+	background-color: $litur1;
+		
+}
+
+header{
+	background-color: $litur2;
+	color: $litur1;	
+}
+
+nav.topnav{
+	order:1;
+}
+
+.topmenu{
+	@include mixin1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: $litur3;
+}
+
+li {
+    float: left;
+	font-size: 1em;
+	border: $border;
+}
+
+li a{
+	display: block;
+    color: $litur1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: $litur4;
+    color: black;
+}
+.kafli-1{
+	@include mixin1;
+}
+
+
+.adalgrein{
+	max-width: 100%;
+	background-color: $litur5;
+	padding: 25px;
+}
+
+
+.vinstri{
+	max-width: 100%;
+	background-color: $litur6;
+	padding: 25px;
+	
+}
+.haegri{
+	max-width: 100%;
+	background-color: $litur6;
+	padding: 25px;
+	
+	
+}
+footer{
+	background-color: $litur7;
+	padding: 10px;
+}
+
+p.texti{
+	float: left;
+
+}
+}
+
+
+/*ipad*/
+@media all and (min-width: 37.5em) and (max-width: 48em) {
+body{
+	@include mixin1;
+	background-color: $litur1;
+		
+}
+header{
+	background-color: $litur2;
+	color: $litur1;
+	padding: 25px;	
+}
+
+nav.topnav{
+	order:1;
+}
+
+.topmenu{
+	@include mixin1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: $litur3;
+}
+
+li {
+    float: left;
+	font-size: 1em;
+	border: $border;
+}
+
+li a{
+	display: block;
+    color: $litur1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: $litur4;
+    color: black;
+}
+.kafli-1{
+	
+}
+
+
+.adalgrein{
+	max-width: $tala1;
+	background-color: $litur5;
+	padding: 2%;
+}
+
+
+
+.vinstri{
+	display: inline-block;
+	max-width: 46%;
+	background-color: $litur6;
+	padding: 2%;
+	height: 245px;
+	
+	
+}
+.haegri{
+	max-width: 46%;
+	background-color: $litur6;
+	padding: 2%;
+	float: right;
+	height: 245px;
+	
+	
+}
+footer{
+	background-color: $litur7;
+	padding: 25px;
+}
+
+
+}
+
+
+
+/*the holy grail*/
+@media all and (min-width: 48em) and (max-width: 120em) {
+
+body{
+	margin:0 auto;
+	background-color: $litur1;
+}
+
+.topnav{
+
+}
+
+.topmenu{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: $litur3;
+}
+
+li {
+    float: left;
+	font-size: 1em;
+	border: $border;
+}
+
+li a {
+    display: block;
+    color: $litur1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: $litur4;
+    color: black;
+}
+
+header{
+	padding:50px;
+	background-color: $litur2;
+	color: $litur1;	
+}
+
+.kafli-1{
+	display: flex;
+	flex-direction: row;
+	
+}
+.adalgrein{
+	background-color: $litur5;
+	padding:15px;
+	order: 2;
+}
+
+.vinstri{
+	padding:15px;
+	background-color: $litur6;
+	order: 1;	
+}
+
+.haegri{
+	padding:15px;
+	background-color: $litur6;
+	order: 3;
+		
+}
+
+footer{
+	background-color: $litur7;
+	padding: 50px;
+}
+
+p.texti{
+float: left;
+
+}
+
+}
