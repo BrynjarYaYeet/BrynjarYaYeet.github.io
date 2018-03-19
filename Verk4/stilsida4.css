@@ -1,0 +1,213 @@
+body{
+	margin:0 auto;
+	background-color: white;
+}
+
+.topnav{
+
+}
+
+.topmenu{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+	font-size: 1em;
+	border: 2px solid #4BFF12;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4BFF12;
+    color: black;
+}
+
+header{
+	padding:25px;
+	background-color: #67FFD2;
+	color: white;	
+}
+
+.kafli-1{
+	display: flex;
+	flex-direction: row;
+	
+}
+.adalgrein{
+	background-color: #FFF100;
+	padding:15px;
+	order: 2;
+}
+
+.vinstri{
+	padding:15px;
+	background-color: #FF93E8;
+	order: 1;	
+}
+
+.haegri{
+	padding:15px;
+	background-color: #FF93E8;
+	order: 3;
+		
+}
+
+footer{
+	background-color: #FF0000;
+	padding: 15px;
+}
+
+p.texti{
+float: left;
+
+}
+}
+
+@media all and (max-width: 48em) {
+
+.myndabox{
+	display: flex;
+	flex-direction: row;
+	height: 2.5em;
+	
+
+}
+.boxa{
+	height: 2.5em;
+	width: 2.5em;
+	margin: 10px;
+	background-color: green;
+}
+.boxb{
+	height: 2.5em;
+	width: 2.5em;
+	margin: 10px;
+	background-color: blue;
+}
+.boxc{
+	height: 2.5em;
+	width: 2.5em;
+	margin: 10px;
+	background-color: orange;
+}
+.boxd{
+	height: 2.5em;
+	width: 2.5em;
+	margin: 10px;
+	background-color: purple;
+}
+.a{
+	display: flex;
+	justify-content: center;
+	margin-top: 25%;
+	color: white;
+}
+.b{
+	display: flex;
+	justify-content: center;
+	margin-top: 25%;
+	color: white;
+}
+.c{
+	display: flex;
+	justify-content: center;
+	margin-top: 25%;
+	color: white;
+}
+.d{
+	display: flex;
+	justify-content: center;
+	margin-top: 25%; 
+	color: white;
+}
+
+a{
+	text-decoration:none;
+}
+}
+@media all and (min-width: 48em) {
+.myndabox{
+	display: flex;
+	flex-direction: column;
+	position: top left;
+	
+}
+body{
+	margin: 0 auto;
+	max-width: 70em;
+	background-color: grey;
+}
+.boxa{
+	height: 2.5em;
+	width: 2.5em;
+	background-color: green;
+}
+.boxb{
+	height: 2.5em;
+	width: 2.5em;
+	background-color: blue;
+}
+.boxc{
+	height: 2.5em;
+	width: 2.5em;
+	background-color: orange;
+}
+.boxd{
+	height: 2.5em;
+	width: 2.5em;
+	background-color: purple;
+}
+.a{
+	display: flex;
+	justify-content: center;
+	margin-top: 25%;
+	color: white;
+
+}
+.b{
+	display: flex;
+	justify-content: center;
+	margin-top: 25%;
+	color: white;
+}
+.c{
+	display: flex;
+	justify-content: center;
+	margin-top: 25%;
+	color: white;
+}
+.d{
+	display: flex;
+	justify-content: center;
+	margin-top: 25%; 
+	color: white;
+}
+a{
+	text-decoration:none;
+}
+.myndabox {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    font-size: 18px;
+}
+
+
